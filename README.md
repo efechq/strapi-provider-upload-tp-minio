@@ -45,7 +45,7 @@ module.exports = ({ env }) => ({
       endPoint: env('MINIO_ENDPOINT'),
       port: parseInt(env('MINIO_PORT'), 10) || 9000,
       useSSL: env('MINIO_USE_SSL') === 'true',
-      folder: '/',
+      folder: 'uploads',
       // isDocker: true,
       host: env('MINIO_HOST'),
     },
