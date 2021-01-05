@@ -53,6 +53,8 @@ module.exports = ({ env }) => ({
 });
 ```
 
+For SSL and NGINX see https://github.com/minio/minio/issues/8050#issuecomment-520913489
+
 ## Resources
 
 - [MIT License](LICENSE.md)
